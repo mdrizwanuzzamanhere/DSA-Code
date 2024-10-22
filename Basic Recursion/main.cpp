@@ -21,9 +21,15 @@ class Solution {
     }
 
     bool isPalindrome(int arr[], int s, int e) {
-        if (s >= e) return true ;
-        if(arr[s]!=arr[e]) return false ;
+        if (s >= e) return true;
+        if (arr[s] != arr[e]) return false;
+    }
 
-        
+    int fibonacci(int n) {
+        if (n == 0) return 0;
+
+        if (n == 1) return 1;
+
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 };
