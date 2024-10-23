@@ -31,7 +31,7 @@ class Solution {
         return smaxi;
     }
 
-    bool check(vector<int>& arr) {
+    bool checkForRotatedSortedArray(vector<int>& arr) {
         int n = arr.size();
         int cnt = 0;
 
@@ -193,7 +193,7 @@ class Solution {
         return maxi;
     }
 
-    int maxProfit(vector<int>& arr) {
+    int bestTimetoBuyAndSellStock(vector<int>& arr) {
         int maxi = 0;
         int mini = INT_MAX;
 
