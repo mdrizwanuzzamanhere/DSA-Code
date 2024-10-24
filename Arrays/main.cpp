@@ -73,7 +73,7 @@ class Solution {
         }
     }
 
-    void rotate(vector<int>& nums, int k) {
+    void rotateArray(vector<int>& nums, int k) {
         int n = nums.size();
         k = k % n;
         reverseArray(nums, 0, n - 1);
@@ -102,7 +102,7 @@ class Solution {
         return s - sum;
     }
 
-    int findMaxConsecutiveOnes(vector<int>& nums) {
+    int maxConsecutiveOnes(vector<int>& nums) {
         int n = nums.size();
         int cnt = 0;
         int maxi = 0;
